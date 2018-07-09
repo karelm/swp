@@ -37,7 +37,7 @@ body {
 }
 
 a {
-    color: #e38cb7;
+    color: #49C1EB;
 }
 
 a:hover,
@@ -54,14 +54,14 @@ h1 {
 
 h2 {
     font-size: 45px;
-    font-weight: 300;
-    color: #633991;
+    font-weight: 500;
+    color: #4A0D8F;
     letter-spacing: -1px;
     margin-bottom: 1rem;
 }
 
 h3 {
-    color: #633991;
+    color: #4A0D8F;
     font-size: 33px;
     font-weight: 500;
 }
@@ -69,14 +69,21 @@ h3 {
 h4 {
     font-size: 20px;
     font-weight: 500;
-    color: #633991;
+    color: #4A0D8F;
 }
 
 h5 {
     font-size: 28px;
     font-weight: 300;
-    color: #633991;
+    color: #4A0D8F;
     margin-bottom: 0.7rem;
+}
+
+.tel,
+a.tel:hover,
+a.tel:focus
+{
+    color: white;
 }
 
 p {
@@ -175,6 +182,9 @@ p.lead {
     }
 }
 
+.container.contact {
+    color: white;
+}
 
 /* NAVBAR
 ----------------------*/
@@ -216,7 +226,7 @@ p.lead {
     }
     .navbar-nav>.nav-item>.nav-link.active:after {
         content: "";
-        border-bottom: 2px solid #cd99d4;
+        border-bottom: 2px solid #49C1EB;
         left: 1rem;
         right: 1rem;
         bottom: 5px;
